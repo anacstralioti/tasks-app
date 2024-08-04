@@ -1,4 +1,4 @@
-<h1>TASKS APP</h1>
+<h1>TASKS APP, aplicativo desenvolvido no 4º semestre do Curso de Engenharia de Software na Universidade Católica de Santa Catarina</h1>
 
 > [!NOTE]
 >Este aplicativo foi desenvolvido por motivações academicas com desenvolvimento em Flutter/Dart. Vale ressaltar que esta aplicação não será utilizada para fins comerciais.
