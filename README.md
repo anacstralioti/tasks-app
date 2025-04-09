@@ -1,42 +1,32 @@
-<h1>TASKS APP, aplicativo desenvolvido no 4º semestre do Curso de Engenharia de Software na Universidade Católica de Santa Catarina</h1>
+# Tasks App
 
-> [!NOTE]
->Este aplicativo foi desenvolvido por motivações academicas com desenvolvimento em Flutter/Dart. Vale ressaltar que esta aplicação não será utilizada para fins comerciais.
-
-O aplicativo foi desenvolvido a partir de um mockup livre (escolhido na internet por motivações de beleza e elementos), sem se preocupar com sua temática. 
-Dessa forma, o foco foi desenvolver uma aplicação o mais fiel possível à prototipação abaixo:
+A Flutter-based task management application designed from a freely available mockup found online, selected for its visual appeal. Not all screens were included in the mockup, so additional screens were created following the same style and color scheme to ensure visual consistency.
 
 <h1 align="center"><img alt="Tasks App" title="#TasksApp" src="/images/4206574.jpg" /></h1>
 
-O escopo é uma aplicação de tarefas. Para as telas não contempladas no mockup, buscou-se utilizar os mesmos elementos e colorações, para manter o padrão.
+## Features
 
-Este aplicativo possui as seguintes funcionalidades:
+- **Intro Screen**:
+  - Button to navigate to the Login screen;
+  - Button to navigate to the Registration screen.
 
-## Tela Introdutória:
-- Botão que leva à tela de login;
-- Botão que leva à tela de cadastro.
+- **Login Screen** *(not part of the original mockup)*:
+  - Login using username and password.
 
-## Tela de Login (tela não contemplada no mockup):
-- Fazer login com usuário e senha.
+- **Registration Screen** *(not part of the original mockup)*:
+  - Register using username, email, and password.
 
-## Tela de Cadastro (tela não contemplada no mockup):
-- Fazer cadastro com usuário, e-mail e senha.
+- **Task Creation Screen**:
+  - Add tasks with name, notes, and due date;  
+  - Note: The mockup used a time field, but this version uses a date field.
 
-## Tela de Cadastro de Tarefas:
-- Cadastro das tarefas com nome, observações e data de previsão para o término (o que se difere do mockup, que é quanto ao horário de término).
+- **Tasks Overview Screen**:
+  - All tasks are displayed in a single list (not grouped by day as in the mockup);
+  - Options to delete or mark tasks as complete.
 
-## Tela de Tarefas Cadastradas:
-- Diferente do mockup, as tarefas não aparecerão por dia e, sim, todas dispostas na mesma tela.
-- Pode-se visualizar todas as tarefas cadastradas;
-- Botões de exclusão e conclusão das tarefas.
+- **Task Editing Screen** *(not part of the original mockup)*:
+  - Edit previously created tasks.
 
-## Tela de Edição de Tarefas Cadastradas (tela não contemplada no mockup):
-- Edição das tarefas já cadastradas.
+---
 
-## Como executar/importar o projeto:
-- Certifique-se de que o Flutter esteja na versão 3.22.1 e o Dart na versão 3.4.1;
-- Importe o projeto para sua IDE de preferência;
-- Certifique-se de que a IDE esteja com os plugins Flutter e Dart instalados nas versões acima;
-- Vá em `File > Settings > Languages & Frameworks > Flutter` e insira o caminho da pasta do SDK do Flutter em `Flutter SDK path`;
-- Abra o arquivo `pubspec.yaml` e clique em `pub get` para que as dependências (pacotes) utilizadas no projeto sejam carregadas;
-- Execute a aplicação.
+Made with ❤️ for learning and practicing Flutter.
