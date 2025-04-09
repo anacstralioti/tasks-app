@@ -4,6 +4,8 @@ A Flutter-based task management application designed from a freely available moc
 
 <h1 align="center"><img alt="Tasks App" title="#TasksApp" src="/images/4206574.jpg" /></h1>
 
+--- 
+
 ## Features
 
 - **Intro Screen**:
